@@ -57,17 +57,102 @@
             </ul>
         </div>
 
-        <!-- Grid -->
-        <div id="grid-view"></div>
+        <!-- contenido de la vistas -->
+        <div class="tab-content mt-3">
+            <!-- Grid -->
+            <div id="grid-view" class="tab-pane fade show active" role="tabpanel"> 
+                <div class="container">
+                    <div class="row g-3">
+                        <div class="col-md-4 col-sm-6 d-flex">
+                            <img src="./assets/images/lake.jpg" alt="images" class="img-fluid w-100 h-100 rounded " ">
+                        </div>
+                        <div class="col-md-4 col-sm-6 d-flex">
+                            <img src="./assets/images/libro.jpg" alt="images" class="img-fluid w-100 h-100 rounded">
+                        </div>
+                        <div class="col-md-4 col-sm-6 d-flex">
+                            <img src="./assets/images/rocks.jpg" alt="images" class="img-fluid w-100 h-100 rounded">
+                        </div>
+                        <div class="col-md-4 col-sm-6 d-flex">
+                            <img src="./assets/images/sportcar.jpg" alt="images" class="img-fluid w-100 h-100 rounded " ">
+                        </div>
+                        <div class="col-md-4 col-sm-6 d-flex">
+                            <img src="./assets/images/snowboard.jpg" alt="images" class="img-fluid w-100 h-100 rounded">
+                        </div>
+                        <div class="col-md-4 col-sm-6 d-flex">
+                            <img src="./assets/images/skydiving.jpg" alt="images" class="img-fluid w-100 h-100 rounded">
+                        </div>
+                        <div class="col-md-4 col-sm-6 d-flex">
+                            <img src="./assets/images/dubai.jpg" alt="images" class="img-fluid w-100 h-100 rounded " style="object-fit: cover;">
+                        </div>
+                        <div class="col-md-4 col-sm-6 d-flex">
+                            <img src="./assets/images/gym.jpg" alt="images" class="img-fluid w-100 h-100 rounded">
+                        </div>
+                        <div class="col-md-4 col-sm-6 d-flex">
+                            <img src="./assets/images/skate.jpg" alt="images" class="img-fluid w-100 h-100 rounded">
+                        </div>
+                    </div>
+                    
+                </div>
 
-        <!-- Time line -->
-        <div id="single-view"></div>
+            </div>
 
+            <!-- Time line -->
+            <div id="single-view" class="tab-pane fade">
+                <div class="container d-flex flex-column align-items-center overflow-auto">
+                    <div class="card mb-3 w-75">
+                        <div class="card-header d-flex justify-content-between">
+                            <h5>My firt trip alone</h5>
+                            <span>08/24</span>
+                        </div>
+                        <img src="./assets/images/lake.jpg" alt="lake">
+                        <div class="card-body">
+                            <p><b>150 likes</b></p>
+                            <p>Live a life you will remember!!</p>
+                        </div>
+                    </div>
+                    <div class="card mb-3 w-75">
+                        <div class="card-header d-flex justify-content-between">
+                            <h5>Stay focused</h5>
+                            <span>01/24</span>
+                        </div>
+                        <img src="./assets/images/gym.jpg" alt="lake">
+                        <div class="card-body">
+                            <p><b>198 likes</b></p>
+                            <p>Eat, sleep, train, repeat</p>
+                        </div>
+                    </div>
+                    <div class="card mb-3 w-75">
+                        <div class="card-header d-flex justify-content-between">
+                            <h5>Relaxing time</h5>
+                            <span>12/23</span>
+                        </div>
+                        <img src="./assets/images/libro.jpg" alt="lake">
+                        <div class="card-body">
+                            <p><b>142 likes</b></p>
+                            <p>A book is a gift you can open again and again</p>
+                        </div>
+                    </div>
+                    <div class="card mb-3 w-75">
+                        <div class="card-header d-flex justify-content-between">
+                            <h5>My skate</h5>
+                            <span>11/23</span>
+                        </div>
+                        <img src="./assets/images/skate.jpg" alt="lake">
+                        <div class="card-body">
+                            <p><b>99 likes</b></p>
+                            <p>Fall 7 times get up 8</p>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
 
         <!-- Modal -->
-         <div class="modal fade " id="modal" tabindex="-1" aria-hidden="true"  aria-labelledby="modal">
+         <div class="modal fade" id="modal" tabindex="-1" aria-hidden="true"  aria-labelledby="modal">
             <div class="modal-dialog">
-                <div class="modal-contend">
+                <div class="modal-content">
                     <div class="modal-header">
                         <h5 class="modal-title">Create a new post</h5>
                         <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="close"></button>
